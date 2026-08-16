@@ -252,14 +252,14 @@ with tab_curve:
 
 with st.expander("Worked verification example (turbulent water)"):
     st.markdown(
-        """
+        r"""
 Hand check used in `verify_calculations.py`: water, **D = 100 mm**, **L = 100 m**,
 **ε = 0.045 mm**, **Q = 10 L/s**.
 
-1. \(A = \\pi D^2/4 = 7.854\\times 10^{-3}\\,\\mathrm{m}^2\)
-2. \(V = Q/A = 1.273\\,\\mathrm{m/s}\)
-3. \(Re = \\rho V D / \\mu \\approx 1.27\\times 10^5\) (turbulent)
-4. Haaland friction factor, then \(\\Delta P = f (L/D) \\rho V^2/2\)
+1. $A = \pi D^2/4 = 7.854\times 10^{-3}\,\mathrm{m}^2$
+2. $V = Q/A = 1.273\,\mathrm{m/s}$
+3. $Re = \rho V D / \mu = 1.268\times 10^5$ (turbulent)
+4. Haaland $f = 0.01927$, then $\Delta P = f (L/D) \rho V^2/2 = 15.59\,\mathrm{kPa}$
 
 Set the sidebar to these values and confirm the metrics match the verification script.
 """

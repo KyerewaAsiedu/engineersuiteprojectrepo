@@ -69,7 +69,7 @@ AI_USAGE.md
 
 1. Push this repository to GitHub (public).
 2. Sign in at [https://share.streamlit.io](https://share.streamlit.io) with GitHub.
-3. **New app** → select this repo → branch `main` → main file `app.py` → Deploy.
+3. **New app** → select this repo → branch `master` → main file `app.py` → Deploy.
 4. Paste the public URL into this README (replace the placeholder at the top).
 
 ## AI assistance
