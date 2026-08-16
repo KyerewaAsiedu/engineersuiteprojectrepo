@@ -42,6 +42,7 @@ error_message = None
 df: pd.DataFrame | None = None
 source_label = ""
 
+
 try:
     if uploaded is not None:
         df = pd.read_csv(uploaded)
